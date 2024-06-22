@@ -12,3 +12,9 @@ Changes:
 - Stealth Profile introduced (with this profile in Klipper and the Prusaslicer profiles for "structural" print we are still 50% faster then with a normal Mk3s+
 - new organisation of the config files. Splitted in printer.cfg and a config folder with the rest of the files
 - changed max_accel_to_decel to minimum_cruise_ratio
+
+
+Prusaslicer Printer Startcode:
+M190 S0 ; Prevents prusaslicer from prepending m190 to the gcode interfering with the macro
+M109 S0 ; Prevents prusaslicer from prepending m109 to the gcode interfering with the macro
+PRINT_START EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
