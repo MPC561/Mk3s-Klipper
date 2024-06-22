@@ -1,5 +1,5 @@
 This configuration is based on following config https://github.com/charminULTRA/Klipper-Input-Shaping-MK3S-Upgrade?tab=readme-ov-file.
-As it sems no more maintained, I made my own one to correct some findings and respect some new Klipper possibilities as for instance native adaptive meshing without Kamp
+As this project seems no more maintained, I made my own to correct some findings and respect some new Klipper possibilities as for instance native adaptive meshing without Kamp
 
 I suggest to use the Mk3.5 Klipper Profiles like also described in the nice guide of charminULTRA above. As you can see there only less adaptions in the Prusaslicer Profiles are necessary
 It´s not neccessary to remove in the Filamnet settings of Prusaslicer the custom Start-G-Code anymore as this config can interprete the Pressure Advance Settings there
