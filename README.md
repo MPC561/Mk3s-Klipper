@@ -15,6 +15,6 @@ Changes:
 
 
 Prusaslicer Printer Startcode:
-M190 S0 ; Prevents prusaslicer from prepending m190 to the gcode interfering with the macro
-M109 S0 ; Prevents prusaslicer from prepending m109 to the gcode interfering with the macro
-PRINT_START EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
+- M190 S0 ; Prevents prusaslicer from prepending m190 to the gcode interfering with the macro
+- M109 S0 ; Prevents prusaslicer from prepending m109 to the gcode interfering with the macro
+- PRINT_START EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
