@@ -9,7 +9,7 @@ Changes:
 - Nozzle supports bed heating correctly
 - adaptive meshing activated
 - M572 macro added to interpret the PA values from the Prusaslicer Filament Settings
-- Stealth Profile introduced (with this profile in Klipper and the Prusaslicer profiles for "structural" print we are still 50% faster then with a normal Mk3s+
+- Stealth Profile introduced (with this profile in Klipper and the Prusaslicer profiles for "structural" print we are still 50% faster then with a normal Mk3s+)
 - new organisation of the config files. Splitted in printer.cfg and a config folder with the rest of the files
 - changed max_accel_to_decel to minimum_cruise_ratio
 
